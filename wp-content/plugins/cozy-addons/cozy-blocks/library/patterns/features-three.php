@@ -1,0 +1,90 @@
+<?php
+/**
+ * Title: Features section three with images and icon
+ * Description: This is features section with images and icon
+ * Slug: cozy-block-patterns/features-three
+ * Categories: cozy-block-patterns, features
+ */
+
+$images = array(
+	CT_ASSETS_URL . 'images/features_3_1.jpg',
+);
+?>
+
+<!-- wp:group {"metadata":{"name":"<?php esc_html_e( 'Features', 'cozy-addons' ); ?>"},"style":{"color":{"background":"#fffffe"},"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-background" style="background-color:#fffffe;margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"blockGap":"0","margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"1180px"}} -->
+<div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--40)"><!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"right":"0","left":"0"}}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-right:0;padding-left:0"><!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":"0"}},"layout":{"type":"constrained","contentSize":"572px"}} -->
+<div class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:heading {"textAlign":"left","level":4,"style":{"typography":{"lineHeight":"1.3","fontSize":"14px","fontStyle":"normal","fontWeight":"600","textTransform":"uppercase"},"color":{"text":"#fa9805"},"elements":{"link":{"color":{"text":"#fa9805"}}}}} -->
+<h4 class="wp-block-heading has-text-align-left has-text-color has-link-color" style="color:#fa9805;font-size:14px;font-style:normal;font-weight:600;line-height:1.3;text-transform:uppercase"><?php esc_html_e( 'Features', 'cozy-addons' ); ?></h4>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"textAlign":"left","style":{"typography":{"lineHeight":"1.3","fontSize":"44px"},"color":{"text":"#090b10"},"elements":{"link":{"color":{"text":"#090b10"}}},"spacing":{"margin":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"}}},"cozyAnimation":{"type":"flip-up","easingFunction":"ease-in","anchorPlacement":"top-bottom","duration":600}} -->
+<h2 class="wp-block-heading has-text-align-left has-text-color has-link-color" style="color:#090b10;margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--20);font-size:44px;line-height:1.3"><?php esc_html_e( 'Our Latest Features', 'cozy-addons' ); ?></h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"left","style":{"typography":{"lineHeight":"1.5"}}} -->
+<p class="has-text-align-left" style="line-height:1.5"><?php esc_html_e( 'Far far away, behind the word mountains, far from the countries Vocalic and Consonantal, there live the blind texts. Separated they live in Bookmarks grove right at the coast of the Semantics, a large language ocean.', 'cozy-addons' ); ?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"left"},"style":{"typography":{"fontSize":"18px","textDecoration":"none"}}} -->
+<div class="wp-block-buttons has-custom-font-size" style="font-size:18px;text-decoration:none"><!-- wp:button {"style":{"color":{"background":"#fa9805"},"spacing":{"padding":{"left":"var:preset|spacing|60","right":"var:preset|spacing|60","top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}},"border":{"radius":"100px"}},"cozyHoverEffect":{"boxShadow":{"enabled":false,"color":"#000","horizontal":0,"vertical":0,"blur":10,"spread":0,"position":""},"boxShadowHover":{"enabled":false,"color":"#000","horizontal":0,"vertical":0,"blur":10,"spread":0,"position":""},"transformEnabled":true,"transform":{"translateX":0,"translateY":"-2","rotate":0,"scale":1}},"cozyHoverStyles":{"bgColor":"#0d5fff","color":"#fffffe","borderColor":""}} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-background wp-element-button" style="border-radius:100px;background-color:#fa9805;padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--60)"><?php esc_html_e( 'Learn More', 'cozy-addons' ); ?></a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group -->
+
+<!-- wp:columns {"style":{"spacing":{"margin":{"top":"var:preset|spacing|80","bottom":"0"},"blockGap":{"top":"var:preset|spacing|60","left":"var:preset|spacing|80"}}}} -->
+<div class="wp-block-columns" style="margin-top:var(--wp--preset--spacing--80);margin-bottom:0"><!-- wp:column {"width":"50%","style":{"spacing":{"blockGap":"0"}},"cozyAnimation":{"type":"fade-up-right","easingFunction":"ease","anchorPlacement":"top-bottom","duration":900}} -->
+<div class="wp-block-column" style="flex-basis:50%"><!-- wp:image {"id":2035,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url( $images[0] ); ?>" alt="" class="wp-image-2035"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"top","width":"50%","style":{"elements":{"link":{"color":{"text":"#646464"}}},"color":{"text":"#646464"},"typography":{"fontSize":"16px"},"spacing":{"blockGap":"var:preset|spacing|80","padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"cozyAnimation":{"type":"fade-up-left","easingFunction":"ease-in","anchorPlacement":"top-bottom","duration":600}} -->
+<div class="wp-block-column is-vertically-aligned-top has-text-color has-link-color" style="color:#646464;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;font-size:16px;flex-basis:50%"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20","padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"var:preset|spacing|30","bottom":"0"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:cozy-block/icon-picker {"blockClientId":"b43120d2-1574-4aed-9a84-8653e7b4dbed","iconSize":40,"iconViewBox":{"vx":"0","vy":"0","vw":"25","vh":"25"},"iconPath":"M12.5 25C10.7708 25 9.14583 24.6719 7.625 24.0156C6.10417 23.3594 4.78125 22.4688 3.65625 21.3438C2.53125 20.2188 1.64063 18.8958 0.984375 17.375C0.328125 15.8542 0 14.2292 0 12.5C0 10.7708 0.328125 9.14583 0.984375 7.625C1.64063 6.10417 2.53125 4.78125 3.65625 3.65625C4.78125 2.53125 6.10417 1.64063 7.625 0.984375C9.14583 0.328125 10.7708 0 12.5 0H13.75V10.3438C14.125 10.5729 14.4271 10.8698 14.6562 11.2344C14.8854 11.599 15 12.0208 15 12.5C15 13.1875 14.7552 13.776 14.2656 14.2656C13.776 14.7552 13.1875 15 12.5 15C11.8125 15 11.224 14.7552 10.7344 14.2656C10.2448 13.776 10 13.1875 10 12.5C10 12.0208 10.1146 11.5938 10.3438 11.2188C10.5729 10.8438 10.875 10.5521 11.25 10.3438V7.65625C10.1667 7.94792 9.27083 8.53646 8.5625 9.42188C7.85417 10.3073 7.5 11.3333 7.5 12.5C7.5 13.875 7.98958 15.0521 8.96875 16.0312C9.94792 17.0104 11.125 17.5 12.5 17.5C13.875 17.5 15.0521 17.0104 16.0312 16.0312C17.0104 15.0521 17.5 13.875 17.5 12.5C17.5 11.75 17.349 11.0573 17.0469 10.4219C16.7448 9.78646 16.3333 9.22917 15.8125 8.75L17.5938 6.96875C18.3229 7.65625 18.9062 8.47396 19.3438 9.42188C19.7812 10.3698 20 11.3958 20 12.5C20 14.5833 19.2708 16.3542 17.8125 17.8125C16.3542 19.2708 14.5833 20 12.5 20C10.4167 20 8.64583 19.2708 7.1875 17.8125C5.72917 16.3542 5 14.5833 5 12.5C5 10.625 5.59375 8.99479 6.78125 7.60938C7.96875 6.22396 9.45833 5.38542 11.25 5.09375V2.5625C8.77083 2.875 6.69271 3.96875 5.01563 5.84375C3.33854 7.71875 2.5 9.9375 2.5 12.5C2.5 15.2917 3.46875 17.6562 5.40625 19.5938C7.34375 21.5312 9.70833 22.5 12.5 22.5C15.2917 22.5 17.6562 21.5312 19.5938 19.5938C21.5312 17.6562 22.5 15.2917 22.5 12.5C22.5 11.0625 22.2188 9.71875 21.6562 8.46875C21.0938 7.21875 20.3229 6.13542 19.3438 5.21875L21.125 3.4375C22.3125 4.58333 23.2552 5.93229 23.9531 7.48438C24.651 9.03646 25 10.7083 25 12.5C25 14.2292 24.6719 15.8542 24.0156 17.375C23.3594 18.8958 22.4688 20.2188 21.3438 21.3438C20.2188 22.4688 18.8958 23.3594 17.375 24.0156C15.8542 24.6719 14.2292 25 12.5 25Z","iconColor":"#f49805","iconColorHover":"#0d5fff","boxStyles":{"padding":{"top":14,"right":14,"bottom":14,"left":14},"borderType":"none","borderWidth":1,"borderColor":"#000","borderColorHover":"","borderRadius":50,"bgColor":"#f49805","bgColorHover":"#0d5fff"}} -->
+<div class="cozy-block-icon-picker default" id="cozyBlock_b43120d2_1574_4aed_9a84_8653e7b4dbed"><svg width="40" height="40" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" fill="#f49805"><path d="M12.5 25C10.7708 25 9.14583 24.6719 7.625 24.0156C6.10417 23.3594 4.78125 22.4688 3.65625 21.3438C2.53125 20.2188 1.64063 18.8958 0.984375 17.375C0.328125 15.8542 0 14.2292 0 12.5C0 10.7708 0.328125 9.14583 0.984375 7.625C1.64063 6.10417 2.53125 4.78125 3.65625 3.65625C4.78125 2.53125 6.10417 1.64063 7.625 0.984375C9.14583 0.328125 10.7708 0 12.5 0H13.75V10.3438C14.125 10.5729 14.4271 10.8698 14.6562 11.2344C14.8854 11.599 15 12.0208 15 12.5C15 13.1875 14.7552 13.776 14.2656 14.2656C13.776 14.7552 13.1875 15 12.5 15C11.8125 15 11.224 14.7552 10.7344 14.2656C10.2448 13.776 10 13.1875 10 12.5C10 12.0208 10.1146 11.5938 10.3438 11.2188C10.5729 10.8438 10.875 10.5521 11.25 10.3438V7.65625C10.1667 7.94792 9.27083 8.53646 8.5625 9.42188C7.85417 10.3073 7.5 11.3333 7.5 12.5C7.5 13.875 7.98958 15.0521 8.96875 16.0312C9.94792 17.0104 11.125 17.5 12.5 17.5C13.875 17.5 15.0521 17.0104 16.0312 16.0312C17.0104 15.0521 17.5 13.875 17.5 12.5C17.5 11.75 17.349 11.0573 17.0469 10.4219C16.7448 9.78646 16.3333 9.22917 15.8125 8.75L17.5938 6.96875C18.3229 7.65625 18.9062 8.47396 19.3438 9.42188C19.7812 10.3698 20 11.3958 20 12.5C20 14.5833 19.2708 16.3542 17.8125 17.8125C16.3542 19.2708 14.5833 20 12.5 20C10.4167 20 8.64583 19.2708 7.1875 17.8125C5.72917 16.3542 5 14.5833 5 12.5C5 10.625 5.59375 8.99479 6.78125 7.60938C7.96875 6.22396 9.45833 5.38542 11.25 5.09375V2.5625C8.77083 2.875 6.69271 3.96875 5.01563 5.84375C3.33854 7.71875 2.5 9.9375 2.5 12.5C2.5 15.2917 3.46875 17.6562 5.40625 19.5938C7.34375 21.5312 9.70833 22.5 12.5 22.5C15.2917 22.5 17.6562 21.5312 19.5938 19.5938C21.5312 17.6562 22.5 15.2917 22.5 12.5C22.5 11.0625 22.2188 9.71875 21.6562 8.46875C21.0938 7.21875 20.3229 6.13542 19.3438 5.21875L21.125 3.4375C22.3125 4.58333 23.2552 5.93229 23.9531 7.48438C24.651 9.03646 25 10.7083 25 12.5C25 14.2292 24.6719 15.8542 24.0156 17.375C23.3594 18.8958 22.4688 20.2188 21.3438 21.3438C20.2188 22.4688 18.8958 23.3594 17.375 24.0156C15.8542 24.6719 14.2292 25 12.5 25Z"></path></svg></div>
+<!-- /wp:cozy-block/icon-picker -->
+
+<!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"20px","fontStyle":"normal","fontWeight":"600","lineHeight":"1.3"},"color":{"text":"#090b10"},"elements":{"link":{"color":{"text":"#090b10"}}}}} -->
+<h3 class="wp-block-heading has-text-color has-link-color" style="color:#090b10;font-size:20px;font-style:normal;font-weight:600;line-height:1.3"><?php esc_html_e( 'Identity Design', 'cozy-addons' ); ?></h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><?php esc_html_e( 'Lorem ipsum dolor sit amet, vet elit at consectetur adipiscing elit. liqua vel cur magna at enisus', 'cozy-addons' ); ?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20","padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--50);padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:cozy-block/icon-picker {"blockClientId":"0529c6e1-47b0-4da7-b6f5-5140230f649c","iconSize":40,"iconViewBox":{"vx":"0","vy":"0","vw":"38","vh":"38"},"iconPath":"M4.41667 37.75C3.27083 37.75 2.28993 37.342 1.47396 36.526C0.657986 35.7101 0.25 34.7292 0.25 33.5833V4.41667C0.25 3.27083 0.657986 2.28993 1.47396 1.47396C2.28993 0.657986 3.27083 0.25 4.41667 0.25H23.1667V4.41667H4.41667V33.5833H33.5833V14.8333H37.75V33.5833C37.75 34.7292 37.342 35.7101 36.526 36.526C35.7101 37.342 34.7292 37.75 33.5833 37.75H4.41667ZM29.4167 12.75V8.58333H25.25V4.41667H29.4167V0.25H33.5833V4.41667H37.75V8.58333H33.5833V12.75H29.4167ZM6.5 29.4167H31.5L23.6875 19L17.4375 27.3333L12.75 21.0833L6.5 29.4167Z","iconColor":"#f49805","iconColorHover":"#0d5fff","boxStyles":{"padding":{"top":14,"right":14,"bottom":14,"left":14},"borderType":"none","borderWidth":1,"borderColor":"#000","borderColorHover":"","borderRadius":50,"bgColor":"#f49805","bgColorHover":"#0d5fff"}} -->
+<div class="cozy-block-icon-picker default" id="cozyBlock_0529c6e1_47b0_4da7_b6f5_5140230f649c"><svg width="40" height="40" viewBox="0 0 38 38" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" fill="#f49805"><path d="M4.41667 37.75C3.27083 37.75 2.28993 37.342 1.47396 36.526C0.657986 35.7101 0.25 34.7292 0.25 33.5833V4.41667C0.25 3.27083 0.657986 2.28993 1.47396 1.47396C2.28993 0.657986 3.27083 0.25 4.41667 0.25H23.1667V4.41667H4.41667V33.5833H33.5833V14.8333H37.75V33.5833C37.75 34.7292 37.342 35.7101 36.526 36.526C35.7101 37.342 34.7292 37.75 33.5833 37.75H4.41667ZM29.4167 12.75V8.58333H25.25V4.41667H29.4167V0.25H33.5833V4.41667H37.75V8.58333H33.5833V12.75H29.4167ZM6.5 29.4167H31.5L23.6875 19L17.4375 27.3333L12.75 21.0833L6.5 29.4167Z"></path></svg></div>
+<!-- /wp:cozy-block/icon-picker -->
+
+<!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"20px","fontStyle":"normal","fontWeight":"600","lineHeight":"1.3"},"color":{"text":"#090b10"},"elements":{"link":{"color":{"text":"#090b10"}}}}} -->
+<h3 class="wp-block-heading has-text-color has-link-color" style="color:#090b10;font-size:20px;font-style:normal;font-weight:600;line-height:1.3"><?php esc_html_e( 'Creative Image', 'cozy-addons' ); ?></h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><?php esc_html_e( 'Lorem ipsum dolor sit amet, vet elit at consectetur adipiscing elit. liqua vel cur magna at enisus', 'cozy-addons' ); ?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20","padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"var:preset|spacing|30","bottom":"0"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:cozy-block/icon-picker {"blockClientId":"91e22c68-2f3e-42c0-9000-fe8d2453699a","iconSize":40,"iconViewBox":{"vx":"0","vy":"0","vw":"38","vh":"38"},"iconPath":"M0.25 37.75V33.5833L4.41667 29.4167V37.75H0.25ZM8.58333 37.75V25.25L12.75 21.0833V37.75H8.58333ZM16.9167 37.75V21.0833L21.0833 25.3021V37.75H16.9167ZM25.25 37.75V25.3021L29.4167 21.1354V37.75H25.25ZM33.5833 37.75V16.9167L37.75 12.75V37.75H33.5833ZM0.25 26.9687V21.0833L14.8333 6.5L23.1667 14.8333L37.75 0.25V6.13542L23.1667 20.7187L14.8333 12.3854L0.25 26.9687Z","iconColor":"#f49805","iconColorHover":"#0d5fff","boxStyles":{"padding":{"top":14,"right":14,"bottom":14,"left":14},"borderType":"none","borderWidth":1,"borderColor":"#000","borderColorHover":"","borderRadius":50,"bgColor":"#f49805","bgColorHover":"#0d5fff"}} -->
+<div class="cozy-block-icon-picker default" id="cozyBlock_91e22c68_2f3e_42c0_9000_fe8d2453699a"><svg width="40" height="40" viewBox="0 0 38 38" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" fill="#f49805"><path d="M0.25 37.75V33.5833L4.41667 29.4167V37.75H0.25ZM8.58333 37.75V25.25L12.75 21.0833V37.75H8.58333ZM16.9167 37.75V21.0833L21.0833 25.3021V37.75H16.9167ZM25.25 37.75V25.3021L29.4167 21.1354V37.75H25.25ZM33.5833 37.75V16.9167L37.75 12.75V37.75H33.5833ZM0.25 26.9687V21.0833L14.8333 6.5L23.1667 14.8333L37.75 0.25V6.13542L23.1667 20.7187L14.8333 12.3854L0.25 26.9687Z"></path></svg></div>
+<!-- /wp:cozy-block/icon-picker -->
+
+<!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"20px","fontStyle":"normal","fontWeight":"600","lineHeight":"1.3"},"color":{"text":"#090b10"},"elements":{"link":{"color":{"text":"#090b10"}}}}} -->
+<h3 class="wp-block-heading has-text-color has-link-color" style="color:#090b10;font-size:20px;font-style:normal;font-weight:600;line-height:1.3"><?php esc_html_e( 'Data Analysis', 'cozy-addons' ); ?></h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><?php esc_html_e( 'Lorem ipsum dolor sit amet, vet elit at consectetur adipiscing elit. liqua vel cur magna at enisus', 'cozy-addons' ); ?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
